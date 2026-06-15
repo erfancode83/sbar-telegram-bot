@@ -10,7 +10,7 @@ from telegram.ext import (
 from flask import Flask, request, jsonify
 
 load_dotenv()
-TOKEN = os.getenv("8323279045:AAHWNayOGvp4CciN0J-34Or761JbKOiBycc")
+TOKEN = os.getenv("")
 PORT = int(os.environ.get('PORT', 10000))
 WEBHOOK_URL = os.environ.get('RENDER_EXTERNAL_URL', 'https://your-bot.onrender.com')
 
